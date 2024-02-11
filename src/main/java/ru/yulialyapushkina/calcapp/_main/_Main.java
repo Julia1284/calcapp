@@ -9,13 +9,9 @@ public class _Main {
         int num2 = 6;
         int result1 = Calculator.sumCalculate(num1,num2);
         int result2 = Calculator.diffCalculate(num1,num2);
-        int result3 = Calculator.multiplyCalculate(num1,num2);
-
+        int result3 = Calculator.productCalculate(num1,num2);
         ResultWriterService.printResult(num1, num2, result1, "sum");
         ResultWriterService.printResult(num1, num2, result2, "difference");
-        ResultWriterService.printResult(num1, num2, result3, "multiply");
-
-
-
+        ResultWriterService.printResult(num1, num2, result3, "product");
     }
 }
